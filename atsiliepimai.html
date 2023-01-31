@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids ABC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://kit.fontawesome.com/10acfa9dac.js" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/adaa5eca50.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mMenu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="tm-site-header">
+    </div>
+
+    <header class="site-header">
+        <div class="container flex-container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Kids abc"></a>
+            </div>
+            <nav class="main-nav">
+                <ul class="flex-container">
+                    <li><a href="apie.html">Apie</a></li>
+                    <li><a href="atsiliepimai.html">Atsiliepimai</a></li>
+                    <li><a href="kontaktai.html">Kontaktai</a></li>
+                </ul>
+            </nav>
+
+
+            <nav class="mobile-nav">
+                <ul id="mMenu" class="flex-container">
+                    <li><a href="apie.html">Apie</a></li>
+                    <li><a href="atsiliepimai.html">Atsiliepimai</a></li>
+                    <li><a href="kontaktai.html">Kontaktai</a></li>
+                </ul>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="cover">
+
+
+
+        <section class="contact">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Jūsų nuomonė mums labai svarbi!</h2>
+                    <p>Jūsų atsiliepimai, patarimai padeda mums tobulėti.
+                        Dėkojame, kad juos siunčiate.
+                    </p>
+                   <h4>Apgailestaujame, šiuo metu Jūsų žinučių priimti negalime. </h4>
+                   <h4> Bet Jūsų nuomonė mums labai svarbi!</h4>
+                   
+
+                </div>
+                <div class="section-content">
+                    <form class="contact-form">
+                        <div class="input-row">
+                            <input type="text" name="name" placeholder="Jūsų vardas">
+                            <input type="email" name="email" placeholder="Jūsų e.paštas">
+                        </div>
+                        <textarea name="message" placeholder="Jūsų žinutė" rows="8"></textarea>
+                        <input type="submit" class="btn btn-form" name="submit" value="Siųsti">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <nav class="nav footer-nav">
+                    <ul class="flex-container">
+
+                        <li><a href="mailto:kidsalphabet@abc.com" target="_blank">
+                                <img src="images/envelope-solid.png" width="30" height="30" alt="Telephone Icon">
+                            </a></li>
+
+                        <li><a href="tel:+370 655 0001" target="_blank">
+                                <img src="images/phone-solid.png" width="30" height="30" alt="Telephone Icon">
+                            </a></li>
+
+
+                        <li><a href="https://www.facebook.com/" target="_blank">
+                                <img src="images/facebook(1).png" width="30" height="30" alt="Facebook Icon">
+                            </a></li>
+
+
+                        <li><a href="https://www.instagram.com/" target="_blank">
+                                <img src="images/instagram.png" width="30" height="30" alt="Instagram Icon">
+                            </a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+</body>
+
+</html>

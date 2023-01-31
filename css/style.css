@@ -1,0 +1,369 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+  
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #f0db2a;
+   
+}
+/* header */
+
+.site-header {
+    background-color: #f0db2a;
+    position: fixed;
+    width: 100%;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+
+
+.site-header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav a {
+    color: #3ba038;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 17px;
+    margin: 0 5px;
+}
+.main-nav a:hover,
+.main-nav a:active {
+    background-color: #f0db2a;
+    border-radius: 5px;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.logo {
+    padding: 5px 0;
+}
+
+/* Cover nuotrauka */
+.cover img{
+    width: 100%;
+}
+.cover {
+    background-color: #f0db2a;
+    text-align: center;
+    padding-top: 100px;
+}
+/* kids alphabet */
+.alphabet {
+    background-color: #f0db2a;
+    margin: 0;
+    
+}
+
+.section-heading {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.5em;
+}
+
+.section-heading h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.2em;
+    color: #2146b3;
+    margin-top: 0 auto;
+    font-family: 'Shadows Into Light', cursive;
+    
+    
+      
+}
+.section-heading p {
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+     margin-top: 0 auto;
+     padding: 25px 0;
+}
+
+/*galerija*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f0db2a;
+    
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    width: 200px;
+    height: auto;
+ 
+}
+.col img {
+    width: 100%;
+}
+
+   
+    
+
+ 
+
+/*galerijos pabaiga*/ 
+
+.container a,
+.container p,
+.container h3 {
+    font-size: 1.3rem;
+    letter-spacing: 0.02em;
+}
+
+.section-heading p {
+    max-width: 610px;
+    margin: 0 auto;
+    line-height: 1.625;
+}
+
+.service {
+    text-align: center;
+    color: #fff;
+    width: 200px;
+    margin: 80px auto 0;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight:bold;
+}
+
+/* Kontaktai */
+.contact {
+    background-color: #3ba038;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact .container {
+    padding-bottom: 60px;
+    background-color: #3ba038;
+}
+
+.contact .section-heading h2:after {
+    border-color: #4bade7;
+}
+
+.contact .section-heading p {
+    max-width: 900px;
+}
+
+.contact .section-content {
+    width: 100%;
+    max-width: 900px;
+    margin: 80px auto;
+}
+
+.contact .section-content .contact-form .input-row {
+    margin-bottom: 30px;
+}
+
+.contact .section-content .contact-form .input-row input {
+    padding: 20px 25px;
+    border-radius: 5px;
+    border: none;
+    width: calc(50% - 18px);
+    color: #fff;
+    background-color:#43b9d3;
+}
+
+.contact .section-content .contact-form .input-row input::placeholder,
+.contact .section-content .contact-form textarea::placeholder {
+    color: #fff;
+}
+
+.contact .section-content .contact-form .input-row input:first-child {
+    margin-right: 16px;
+}
+
+.contact .section-content .contact-form .input-row input:last-child {
+    margin-left: 16px;
+}
+
+.contact .section-content .contact-form textarea {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 25px;
+    color: #fff;
+    background-color:#43b9d3;
+}
+
+.contact .section-content .contact-form .btn-form {
+    background-color:#2146b3;
+    border-color: #2146b3;
+    border-radius: 20px;
+}
+
+.contact .btn {
+    margin: 60px auto 0;
+    display: block;
+    width: 300px;
+}
+
+/* FOOTER */
+.footer .container{
+    background-color: #3ba038;
+    padding: 50px 0;
+    color:#3ba038
+}
+
+.footer ul {
+    justify-content:space-evenly;
+    list-style: none;
+   
+}
+
+.footer.footer{
+    background-color: #3ba038;
+}
+
+
+/*kontaktai navigacijoje*/
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2;
+    
+    
+    
+}
+
+ul {
+    list-style-type: none;
+   
+  }
+
+h4 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(208, 75, 75);
+
+}
+
+@media all and (max-width:980px) {
+    .main-nav {
+        display: none;
+    }
+
+    .site-header .container {
+        display: block;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    .mobile-nav {
+        position: relative;
+        width: 100%;
+        display: block;
+    }
+
+    .mobile-nav li {
+        list-style: none;
+    }
+
+    .mobile-nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 133px;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    .mobile-nav a {
+        color: #3ba038;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 10px 17px;
+        display: block;
+    }
+
+    .mobile-nav a:hover,
+    .mobile-nav a:active {
+        background-color: #3ba038;
+        color: #fff;
+        border-radius: 5px;
+    }
+
+    .mobile-nav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        color: #fff;
+    }
+
+    .alphabet .section-content {
+        flex-direction: column;
+    }
+
+    .service {
+        max-width: 90%;
+    }
+
+    .footer ul {
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width:640px) {
+    .footer-nav .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:414px) {
+    section>.container {
+        padding: 70px 0;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .section-heading h2 {
+        font-size: 2.2rem;
+    }
+}
